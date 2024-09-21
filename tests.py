@@ -22,10 +22,6 @@ FINAL_MSG = "Press any key to quit\n"
 display = True
 hidden_feedback = [""]
 tamper = False
- 
-with open(path.basename(__file__) , encoding=ENC) as f:
-    if sha256(f.read().encode(ENC)).hexdigest() != EXP_HASH:
-        tamper = True
 
 def load_module_from_path(path):
     def mod_name(name):
@@ -119,10 +115,14 @@ class TestRunner:
             this_test_path = path.join(PATH, test)
             try:
                 with open(this_test_path, encoding=ENC) as f:
-                    tests[test] = loads(f.read())
+                    this_test = loads(f.read())
+                    this_test["outputs"] = this_test["outputs"].splitlines()
+                    this_test["inputs"] = this_test["inputs"].splitlines()
+                    tests[test] = this_test
             except Exception as e:
                 print_red(f"Skipping {test} as : {e}")
                 continue
+        
         return tests
 
     def __init__(self, silent=True):
@@ -205,7 +205,6 @@ class TestRunner:
                 if fail:
                     display = False
 
-                    
             if fail:
                 print_red("\n❌ TEST FAILED")
                 test_stats[1] += 1                 

@@ -1,53 +1,57 @@
-# TASK 1 HERE
+## LEAVE THE 'TASK X' PRINT MESSAGES
+## AS THEY ARE. WRITE YOUR CODE
+## *UNDERNEATH* EACH MESSAGE!
+
+print("\nTASK 1 HERE\n")
 
 
 
-# TASK 2 HERE
+print("\nTASK 2 HERE\n")
 
 
 
-# TASK 3 HERE
+print("\nTASK 3 HERE\n")
 
 
 
-# TASK 4 HERE
+print("\nTASK 4 HERE\n")
 
 
 
-# TASK 5 HERE
+print("\nTASK 5 HERE\n")
 
 
 
-# TASK 6 HERE
+print("\nTASK 6 HERE\n")
 
 
 
-# TASK 7 HERE
+print("\nTASK 7 HERE\n")
 
 
 
-# TASK 8 HERE
+print("\nTASK 8 HERE\n")
 
 
 
-# TASK 9 HERE
+print("\nTASK 9 HERE\n")
 
 
 
-# TASK 10 HERE
+print("\nTASK 10 HERE\n")
 
 
 
-# TASK 11 HERE
+print("\nTASK 11 HERE\n")
 
 
 
-# TASK 12 HERE
+print("\nTASK 12 HERE\n")
 
 
 
-# TASK 13 HERE
+print("\nTASK 13 HERE\n")
 
 
 
-# TASK 14 HERE
+print("\nTASK 14 HERE\n")

@@ -1,1 +1,1 @@
-{"inputs": "", "outputs": "🐶 Dog\n🐱 Cat\n🐶 Dog\n🐱 Cat"}
+{"inputs": "", "outputs": "TASK 6 HERE\n🐶 Dog\n🐱 Cat\n🐶 Dog\n🐱 Cat"}

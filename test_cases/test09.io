@@ -1,1 +1,1 @@
-{"inputs": "", "outputs": "🐍 Snake\n🦎 Lizard\n🐍 Snake\n🦎 Lizard\n🐍 Snake\n🦎 Lizard\n🐍 Snake\n🦎 Lizard"}
+{"inputs": "", "outputs": "TASK 10 HERE\n🐍 Snake\n🦎 Lizard\n🐍 Snake\n🦎 Lizard\n🐍 Snake\n🦎 Lizard\n🐍 Snake\n🦎 Lizard"}
